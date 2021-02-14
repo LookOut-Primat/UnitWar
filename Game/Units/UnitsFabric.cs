@@ -37,7 +37,7 @@ namespace Game.Units
         {
             foreach (Unit un in Units)
             {
-                Console.WriteLine($"{name}({un.Number}): {un.Health}");
+                Console.WriteLine($"{name}({un.Number}): Здоровье - {un.Health} Броня - {un.Armor}");
             }
         }
 
