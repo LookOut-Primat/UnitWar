@@ -27,13 +27,27 @@ namespace Game
 
         public void Wound(int damage)
         {
-            if(damage >= Health)
+            if (damage <= Armor)
             {
-                Health = 0;
-            } else
-            {
-                Health -= damage;
+                Armor -= damage;
             }
+            if(damage > Armor)
+            {
+                int i = Armor - damage;
+                i *= -1;
+                Console.WriteLine(i);
+                Armor = 0;
+
+                if (i >= Health)
+                {
+                    Health = 0;
+                }
+                else
+                {
+                    Health -= i;
+                }
+            }
+            
         }
         
         public void Dead(List<Unit> Units, Unit unit)
