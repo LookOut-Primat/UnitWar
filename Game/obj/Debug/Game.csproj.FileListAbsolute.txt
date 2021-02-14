@@ -1,0 +1,6 @@
+E:\AndroidAppVS2019-15\15\Game\Game\bin\Debug\Game.exe.config
+E:\AndroidAppVS2019-15\15\Game\Game\bin\Debug\Game.exe
+E:\AndroidAppVS2019-15\15\Game\Game\bin\Debug\Game.pdb
+E:\AndroidAppVS2019-15\15\Game\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache
+E:\AndroidAppVS2019-15\15\Game\Game\obj\Debug\Game.exe
+E:\AndroidAppVS2019-15\15\Game\Game\obj\Debug\Game.pdb
